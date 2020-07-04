@@ -9,9 +9,10 @@ body{
     box-sizing: border-box;
 }
 .main{
+    z-index: -1000;
     margin: 0 auto;
     position: relative;
-   /* overflow: hidden;  */
+    /* overflow: hidden;  */
     /* justify-content: space-around; */
     /* width: 100%; */
     box-sizing: border-box;
@@ -23,7 +24,10 @@ body{
 }
 
 .carousel-item{
+    height: 200px;
+    background-color: #026bd4;
     position: absolute;
+    color: #ffffff;
     /* display: flex; */
     /* display: none; */
     /* position: relative; */
@@ -38,5 +42,13 @@ body{
 .btn{
     padding-top: 50px;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
+    align-items: center;
+    cursor: pointer;
+}
+.mes-button{
+    padding: 0 20px;
+    color: #ffffff;
 }
